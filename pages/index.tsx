@@ -75,7 +75,7 @@ export default function Home(props: Props) {
               <img src={props.data.company.logo} alt={`logo of ${props.data.company.name}`} />
             </div>
             <div className='h-full w-[1px] bg-gray-300 min-h-[30px] sm:block hidden' />
-            <span className='text-2xl font-semibold sm:block hidden'>Looking Glass</span>
+            <span className='text-2xl font-semibold sm:block hidden'>F4 Networks Looking Glass</span>
           </div>
           <div className="w-full md:w-[180px] h-full flex items-center">
             <Select value={location} onValueChange={setLocation}>
@@ -180,11 +180,6 @@ export default function Home(props: Props) {
             </div>
           </div>
         )}
-        <div className='flex flex-row items-center w-full justify-start gap-4 py-4'>
-          <a href="https://github.com/kittensaredabest/smokey" target={"_blank"} rel="noreferrer" className='inline-flex flex-row items-center gap-2 text-gray-500'>
-            Powered by Smokey
-          </a>
-        </div>
       </div>
     </>
   )
