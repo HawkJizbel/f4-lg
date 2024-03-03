@@ -1,4 +1,4 @@
-# Smokey
+# F4 Looking Glass
 The modern looking glass for modern companies
 
 ## Installation
